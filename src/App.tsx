@@ -3,7 +3,7 @@ import { Post } from './types';
 import { mockPosts } from './mockData';
 import { Sun, Moon, Search, AlertCircle, X, ArrowRight, BookOpen, Zap, Star, ChevronDown } from 'lucide-react';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://blinky-blogging-app-dhy7.vercel.app/';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 // ────────────────────────────────────────────────────────────────
 // Navbar
